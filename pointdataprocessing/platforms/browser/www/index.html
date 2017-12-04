@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-<title>정보처리 산업기사 필기 노트</title>
+<title>정처산기 필기 노트</title>
 <!-- bootstrap -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
@@ -14,23 +14,22 @@
 <![endif]-->
 </head>
 <body>
-
+<header role="banner" id="header">
 	<div class="container">
-		<nav class="navbar navbar-default ">
-		  <div class="container-fluid">
+		<nav class="navbar navbar-default">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
 		        <span class="sr-only">Toggle navigation</span>
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		      <a class="navbar-brand" href="index.html">정처기 필기 노트</a>
+		      <a class="navbar-brand" href="index.html">정처산기 <strong>필기노트</strong></a>
 		    </div>
 		
 		    <!-- Collect the nav links, forms, and other content for toggling -->
-		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		    <div class="collapse navbar-collapse" id="navbar">
 		      <ul class="nav navbar-nav navbar-right">
 		        <li class="active"><a href="index.html">처음으로 <span class="sr-only">(current)</span></a></li>
 		        <li><a href="#">시험정보</a></li>
@@ -45,68 +44,36 @@
 		          </ul>
 		        </li>
 		      </ul>
-		    </div><!-- /.navbar-collapse -->
-		  </div><!-- /.container-fluid -->
+		    </div>
 		</nav>
-		
-		<div class="jumbotron">
-		    <h1>정보 처리 산업 기사</h1> 
-		    <h2>필기 노트</h2> 
-	  	</div>
-	  	
-	  	<div class="row">
-	  		<div class="col-sm-12">
-	  			<h1>시험 과목</h1>
-	  		</div>
-	  	</div>
-	  	<div class="container box">
-	  		<div class="row">
-	  			<div class="col-sm-4">
-	  				<span class="glyphicon glyphicon-console logo" aria-hidden="true"></span>
-	  			</div>
-			  	<h2>1. 알고리즘</h2>
-	  		</div>
-	  	</div>
-	  	<div class="container box">
-	  		<div class="row">
-	  			<div class="col-sm-4">
-	  				<span class="glyphicon glyphicon-console logo" aria-hidden="true"></span>
-	  			</div>
-			  	<h2>2. 데이터 베이스</h2>
-	  		</div>
-	  	</div>
-	  	<div class="container box">
-	  		<div class="row">
-	  			<div class="col-sm-4">
-	  				<span class="glyphicon glyphicon-console logo" aria-hidden="true"></span>
-	  			</div>
-			  	<h2>3. 업무 프로세스</h2>
-	  		</div>
-	  	</div>
-	  	<div class="container box">
-	  		<div class="row">
-	  			<div class="col-sm-4">
-	  				<span class="glyphicon glyphicon-console logo" aria-hidden="true"></span>
-	  			</div>
-			  	<h2>4. 신기술 동향</h2>
-	  		</div>
-	  	</div>
-	  	<div class="container box">
-	  		<div class="row">
-	  			<div class="col-sm-4">
-	  				<span class="glyphicon glyphicon-console logo" aria-hidden="true"></span>
-	  			</div>
-			  	<h2>5. 전산 영어 실무</h2>
-	  		</div>
-	  	</div>
-	  	
 	</div>
+</header>
 
+<section id="home" data-section="home">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="mainTextRap">
+			<h1 class="text-center">정보처리 산업기사</h1>
+			<h1 class="text-center"><strong class="mainTextSecond">필기노트</strong></h1>
+		</div>
+	</div>
+</section>
 
-	<script type="text/javascript" src="cordova.js"></script>
-	<!-- jQuery-->
-	<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
-	<!-- bootstrap -->
-	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<section id="homeMenu">
+	<div class="container">
+		<div class="row">
+			<div class="mainMenu col-md-12">
+				<div class="col-md-8 menuLeft"></div>
+				<div class="col-md-4 menuRight"></div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<script type="text/javascript" src="cordova.js"></script>
+<!-- jQuery-->
+<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+<!-- bootstrap -->
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
 </body>
 </html>
